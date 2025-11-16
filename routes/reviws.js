@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router({mergeParams: true }); // to access id from app.js
-const wrapAsync = require("../utils/wrapasync.js");
+const wrapAsync = require("../utils/wrapAsync.js");
 const ExpressError = require("../utils/expresserror.js");
 //  const {listingSchema} = require("../schema.js");// use listingschema 
 const Review = require("../models/review.js");
