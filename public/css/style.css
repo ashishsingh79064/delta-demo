@@ -1,0 +1,154 @@
+ body {
+    font-family: "Plus Jakarta Sans", sans-serif !important;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+  }
+  .container {
+    flex: 1;
+  }
+
+
+.navbar {
+     height: 5rem;
+     background-color: white;
+}
+
+.fa-compass {
+    color: #fe424d;
+    font-size: 2rem;
+}
+.nav-link {
+    color:#222222 !important ;
+}
+/* footer  */
+.f-inf0-links a {
+     text-decoration: none;
+     color: #222222;
+}
+.f-inf0-links a:hover {
+    text-decoration: underline;
+}
+.f-inf0-links, .f-info-socials, .f-info-brand{
+    /* vertical-align: middle; */
+    display: flex;
+    width: 100%; 
+    align-items: center;
+    justify-content: center;
+}
+.f-info-socials i {
+    margin-right: 1rem;
+      font-size: 1.2rem;
+}
+.f-info {
+    text-align: center;
+    height: 7rem;
+    background-color: #ebebeb;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: space-evenly;
+}
+
+   /* cards */
+.listing-card {
+   /* border: none !important;    */
+    margin-bottom: 2rem;
+    border-radius: 7rem;
+    
+}
+.listing-cards {
+    border: none !important; 
+    margin-bottom: 2rem; 
+}
+/* .listing-cardss {
+    border-radius: 5rem;
+    height: 20px;
+} */
+
+.card-img-top {
+    border-radius: 5rem !important;
+    width: 100% !important;
+    object-fit: cover !important;
+}
+.card-body {
+  padding: 0 !important;
+}
+.card-text p {
+    font-weight: 400 !important;
+}
+.listing-link {
+    text-decoration: none;
+}
+ .card-img-overlay {
+   text-align: start;
+   font-style: italic;
+   color: #222222;
+   
+}  
+
+   /* new page */
+.card-img-overlay:hover {
+    opacity: 0.2;
+    background-color: white;
+}
+.add-btn {
+   background-color: #fe424d !important;
+   border: none !important;
+}
+
+/* editpage */
+.edit-btn {
+    background-color:red !important;
+    border: none !important; 
+
+
+}
+
+/* show page */
+.show-img{
+    height: 30vh;
+    width: 30vh;
+}
+
+.btns {
+    display: flex;
+    /* margin-right: rem; */
+}
+.show-card {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/* map */
+
+#map { 
+    height: 400px;
+    width: 80vh;
+   
+}
+
+   #filters {
+      display: flex;
+      flex-wrap: wrap;
+   }
+
+     /* booking  */
+
+   .booking-form {
+  margin-top: 20px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+.booking-form input, .booking-form button {
+  margin: 5px;
+  padding: 8px;
+}
+
+/* .img-url {
+    height: 10px;
+    width: 10px;
+    border-radius: 5rem;
+}  */

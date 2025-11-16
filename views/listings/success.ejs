@@ -1,0 +1,8 @@
+<h2>🎉 Booking Successful!</h2>
+<p>You booked <strong><%= listing.title %></strong></p>
+  <h2><img src="<%= listing.image.url %>" width="200"></h2>
+<p>Check-in: <%= booking.checkIn.toDateString() %></p>
+<p>Check-out: <%= booking.checkOut.toDateString() %></p>
+<p>Total Price: ₹<%= booking.totalPrice %></p>
+
+<a href="/listings/<%= listing._id %>">Back to listing</a>
